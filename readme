@@ -1,0 +1,9 @@
+para poder correr el proyecto debes tener instalado:
+TypeScript -> npm install -g typescript
+Jest -> npm install jest babel-jest @babel/core @babel/preset-env @babel/preset-typescript @types/jest -D
+
+para ejecutar el proyecto:
+si quieres testear una solucion
+    pnpm jest ejercicios/nombre_de_carpeta_a_testear
+si quieres testear todo el proyecto
+    pnpm test
